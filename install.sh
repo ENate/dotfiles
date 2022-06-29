@@ -27,7 +27,7 @@ zshrc() {
 #sudo ln -fs /usr/share/zoneinfo/Europe/Berlin /etc/localtime
 #sudo dpkg-reconfigure --frontend noninteractive tzdata
 
-zshrc
+sudo zshrc
 
 sudo apt-get install -y fonts-powerline
 
