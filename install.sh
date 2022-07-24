@@ -12,7 +12,7 @@ zshrc() {
     echo "==========================================================="
     echo "                cloning powerlevel9k                       "
     echo "-----------------------------------------------------------"
-    $ git clone https://github.com/bhilburn/powerlevel9k.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/themes/powerlevel9k
+    git clone https://github.com/bhilburn/powerlevel9k.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/themes/powerlevel9k
     echo "==========================================================="
 
     echo "                  Import zshrc                             "
