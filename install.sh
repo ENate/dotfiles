@@ -24,3 +24,4 @@ zshrc() {
 zshrc
 sudo apt-get update
 sudo apt-get install powerline fonts-powerline
+npm install -g @angular/cli
