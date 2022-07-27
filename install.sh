@@ -14,11 +14,20 @@ zshrc() {
     echo "-----------------------------------------------------------"
     git clone https://github.com/bhilburn/powerlevel9k.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/themes/powerlevel9k
     echo "==========================================================="
+    echo "             cloning powerlevel10k                         "
+    echo "-----------------------------------------------------------"
+    git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/themes/powerlevel10k
+    echo "==========================================================="
 
     echo "                  Import zshrc                             "
     echo "-----------------------------------------------------------"
     
     cat .zshrc > $HOME/.zshrc
+    echo "             import powerlevel10k                          "
+    echo "-----------------------------------------------------------"
+    echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
+
+
 }
 
 zshrc
