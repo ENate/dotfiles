@@ -33,4 +33,4 @@ zshrc() {
 zshrc
 apt-get update
 apt-get install powerline fonts-powerline
-npm nstall -g @angular/cli
+npm install -g @angular/cli
